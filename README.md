@@ -4,16 +4,19 @@ Java console application developed to practice programming fundamentals and obje
 
 ## Overview
 
-This application allows users to manage a list of tasks through a simple console-based interface.  
-It supports basic task operations and demonstrates how to structure a small application using classes and methods.
+This application allows users to manage a list of tasks through a console interface.  
+It supports full CRUD operations (Create, Read, Update, Delete) and demonstrates a structured approach using classes and methods.
+
+For simplicity and easier execution in online environments, the project is implemented in a single Java file.
 
 ## Features
 
-- Add tasks with title and description
+- Add tasks with title, description and owner
 - View task list
+- Update existing tasks
 - Delete tasks
-- Menu-based navigation
-- User input handling
+- Input validation with error handling
+- Debug mode for development
 
 ## Technologies
 
@@ -25,19 +28,25 @@ It supports basic task operations and demonstrates how to structure a small appl
 
 - Object-Oriented Programming (OOP)
 - Classes and objects (Task class)
-- Variables and data structures
-- Conditional statements (if/else, switch)
-- Loops (while, for)
-- Method organization and modular code
+- Conditional statements (if/switch)
+- Loops
+- Exception handling (try/catch)
+- Modular code organization
 
 ## Project Structure
 
-- `Task.java` → defines the Task object (title, description)
-- `TaskManager.java` → main application logic and user interaction
+- `TaskManager.java` → contains both the Task class and the main application logic
 
 ## Purpose
 
-This project was created to strengthen logical thinking and problem-solving skills, while introducing object-oriented programming concepts and improving code organization.
+This project was created to strengthen logical thinking, improve code structure and apply object-oriented programming concepts in a practical way.
+
+## Future Improvements
+
+- Separate classes into multiple files
+- Mark tasks as completed
+- Save tasks to file (data persistence)
+- Improve user interface
 
 ## Author
 
