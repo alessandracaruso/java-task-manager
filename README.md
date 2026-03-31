@@ -1,15 +1,17 @@
 # Java Task Manager
 
-Simple Java project developed to practice basic programming concepts.
+Java console application developed to practice programming fundamentals and object-oriented programming (OOP).
 
 ## Overview
 
-This application allows users to manage a list of tasks through a simple console interface.
+This application allows users to manage a list of tasks through a simple console-based interface.  
+It supports basic task operations and demonstrates how to structure a small application using classes and methods.
 
 ## Features
 
-- Add tasks
+- Add tasks with title and description
 - View task list
+- Delete tasks
 - Menu-based navigation
 - User input handling
 
@@ -21,14 +23,21 @@ This application allows users to manage a list of tasks through a simple console
 
 ## Programming Concepts
 
-- Variables
-- Conditional statements (if/else)
+- Object-Oriented Programming (OOP)
+- Classes and objects (Task class)
+- Variables and data structures
+- Conditional statements (if/else, switch)
 - Loops (while, for)
-- Basic data structures
+- Method organization and modular code
+
+## Project Structure
+
+- `Task.java` → defines the Task object (title, description)
+- `TaskManager.java` → main application logic and user interaction
 
 ## Purpose
 
-This project was created to strengthen logical thinking and problem-solving skills through hands-on practice with Java fundamentals.
+This project was created to strengthen logical thinking and problem-solving skills, while introducing object-oriented programming concepts and improving code organization.
 
 ## Author
 
